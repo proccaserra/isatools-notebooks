@@ -1,6 +1,6 @@
 # launch the exercise solution
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/proccaserra/isatools-notebooks/dtp?filepath=notebooks%2FStudy%20Designer%20(Sample%20QC%20injection).ipynb)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/proccaserra/isatools-notebooks/dtp?filepath=notebooks%2FStudy_Designer_SampleQC_injection.ipynb)
 
 
 
@@ -12,7 +12,7 @@ This repository contains notebooks to demonstrate the `isatools` software packag
 
 `Update Investigation using ISA Model.ipynb` - Load an ISA-Tab, update it using ISA model objects, and write back to ISA-Tab.
 
-`Study Designer (Sample QC injection).ipynb` - Generate ISA-Tab using the sample planning objects with quality control elements.
+`Study_Designer_SampleQC_injection.ipynb` - Generate ISA-Tab using the sample planning objects with quality control elements.
 
 `Study Designer (DNA microarray).ipynb` - Generate ISA-Tab using sample and assay planning for DNA microarray.
 
