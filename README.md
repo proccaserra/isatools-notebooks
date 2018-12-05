@@ -1,6 +1,6 @@
 # launch the exercise solution
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/ISA-tools/isatools-notebooks/dtp?filepath=notebooks%2FStudy%20Designer%20(Sample%20QC%20injection).ipynb)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/proccaserra/isatools-notebooks/dtp?filepath=notebooks%2FStudy%20Designer%20(Sample%20QC%20injection).ipynb)
 
 
 
