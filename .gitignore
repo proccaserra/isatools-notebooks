@@ -4,3 +4,9 @@
 
 #virtualenv
 venv34
+venv36
+
+#misc
+.gitignore~
+requirements.txt~
+*.*~
