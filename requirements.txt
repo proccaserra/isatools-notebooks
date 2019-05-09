@@ -3,8 +3,10 @@ beautifulsoup4==4.6.0
 biopython==1.70
 bleach==2.0.0
 bs4==0.0.1
+bokeh
 #certifi==2017.7.27.1
 chardet==3.0.4
+datetime
 decorator==4.1.2
 deepdiff==3.3.0
 entrypoints==0.2.3
@@ -16,7 +18,8 @@ ipython==6.1.0
 ipython-genutils==0.2.0
 ipywidgets
 #-e git+http://github.com/ISA-tools/isa-api@d8c2da43f2787ce6b6456d007efbd65dbe0df131#egg=isatools
--e git+http://github.com/ISA-tools/isa-api@4ca7811900706cff02d4d3c9f7fef9dc05cbc818#egg=isatools
+#-e git+http://github.com/ISA-tools/isa-api@4ca7811900706cff02d4d3c9f7fef9dc05cbc818#egg=isatools
+-e git+http://github.com/ISA-tools/isa-api@aeae0b2d5f36b2af1aadab2d65de2dc71a0bc8b6#egg=isatools
 #isatools==0.10.3
 iso8601==0.1.12
 jdcal==1.3
