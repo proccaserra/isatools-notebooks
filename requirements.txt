@@ -19,7 +19,14 @@ ipython-genutils==0.2.0
 ipywidgets
 #-e git+http://github.com/ISA-tools/isa-api@d8c2da43f2787ce6b6456d007efbd65dbe0df131#egg=isatools
 #-e git+http://github.com/ISA-tools/isa-api@4ca7811900706cff02d4d3c9f7fef9dc05cbc818#egg=isatools
--e git+http://github.com/ISA-tools/isa-api@aeae0b2d5f36b2af1aadab2d65de2dc71a0bc8b6#egg=isatools
+#-e git+http://github.com/ISA-tools/isa-api@aeae0b2d5f36b2af1aadab2d65de2dc71a0bc8b6#egg=isatools
+#-e git+http://github.com/ISA-tools/isa-api@e94ef7d1f4381acaf30cccafb762b17048bd6ca2#egg=isatools
+#-e git+http://github.com/ISA-tools/isa-api@29ad32830c8fc54ad5b367584179464a80d6bc60#egg=isatools
+#-e git+http://github.com/ISA-tools/isa-api@4a2d04820d90da086ed2684b42df0aaa073591b6#egg=isatools
+#-e git+http://github.com/ISA-tools/isa-api@b3ac17ee03a1d9c76aaec0e19eda67e906f44006#egg=isatools
+#-e git+http://github.com/ISA-tools/isa-api@d431c35ffadd1dc1d9079e57253ebcbe5c217d2e#egg=isatools
+-e git+http://github.com/ISA-tools/isa-api@f107f7d7858b0c912275ec5641fbfdd76d000a4b#egg=isatools
+#-e git+http://github.com/ISA-tools/isa-api@1e4d6bcae667b6fc6edbe2b7aed20e974acc55f6#egg=isatools
 #isatools==0.10.3
 iso8601==0.1.12
 jdcal==1.3
