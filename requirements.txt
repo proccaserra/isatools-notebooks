@@ -6,8 +6,7 @@ numpy==1.16
 pandas==0.24.2
 python-dateutil==2.8.0
 pytz==2019.1
-#-e git+http://github.com/ISA-tools/isa-api@5bbb08ff21ec67be9d2ef918140b4219b5497b82#egg=isatools
--e git+http://github.com/ISA-tools/isa-api@8e692ca4ba6743f811e8f1cdad04429c40e934f5#egg=isatools
+-e git+http://github.com/ISA-tools/isa-api@950574d03f76e4053de3ac994a8a20c91f64d0c6#egg=isatools
 #appnope==0.1.0
 #beautifulsoup4==4.6.0
 #biopython==1.70
