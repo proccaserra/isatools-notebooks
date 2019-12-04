@@ -1,0 +1,5 @@
+Source Name	Characteristics[Organism]	Term Source REF	Term Accession Number	Protocol REF	Sample Name	Characteristics[OrganismPart]	Term Source REF	Term Accession Number
+material_A	Homo Sapiens	NCBITaxon	http://purl.bioontology.org/ontology/NCBITAXON/9606	sample collection	material-A-0	liver	UBERON	http://purl.obolibrary.org/obo/UBERON_0002107
+material_A	Homo Sapiens	NCBITaxon	http://purl.bioontology.org/ontology/NCBITAXON/9606	sample collection	material-B-0	heart	UBERON	http://purl.obolibrary.org/obo/UBERON_0000948
+material_B	Mus musculus	NCBITaxon	http://purl.bioontology.org/ontology/NCBITAXON/10090	sample collection	material-A-0	liver	UBERON	http://purl.obolibrary.org/obo/UBERON_0002107
+material_B	Mus musculus	NCBITaxon	http://purl.bioontology.org/ontology/NCBITAXON/10090	sample collection	material-B-0	heart	UBERON	http://purl.obolibrary.org/obo/UBERON_0000948
