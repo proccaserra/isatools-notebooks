@@ -110,11 +110,8 @@
                         "termSource": ""
                     },
                     "processSequence": [
-                       
-              
-
-                       
-                         {
+                                             
+                        {
                             "@id": "#process/nucleic_acid_extraction21",
                             "comments": [],
                             "date": "",
@@ -136,8 +133,7 @@
                             ],
                             "parameterValues": [],
                             "performer": ""
-                        },                       
-                                                
+                        },                                                                      
                         {
                             "@id": "#process/PCR_amplification21",
                             "comments": [],
@@ -271,8 +267,44 @@
                                 "@id": "#process/PCR_amplification21"
                             }
                         },
-
-                        
+{
+                            "@id": "#process/EXP13",
+                            "comments": [
+                                {
+                                    "name": "Export",
+                                    "value": "yes"
+                                }
+                            ],
+                            "date": "",
+                            "executesProtocol": {
+                                "@id": "#protocol/nucleic_acid_sequencing"
+                            },
+                            "inputs": [],
+                            "name": "EXP13",
+                            "outputs": [
+                                {
+                                    "@id": "#data/rawdatafile-16BF.sff"
+                                }
+                            ],
+                            "parameterValues": [
+                                {
+                                    "category": {
+                                        "@id": "#parameter/quality_scorer"
+                                    },
+                                    "value": "phred"
+                                },
+                                {
+                                    "category": {
+                                        "@id": "#parameter/sequencing_instrument"
+                                    },
+                                    "value": "454 GS FLX Titanium"
+                                }
+                            ],
+                            "performer": "",
+                            "previousProcess": {
+                                "@id": "#process/library_construction21"
+                            }
+                        },                       
                         {
                             "@id": "#process/nucleic_acid_extraction1",
                             "comments": [],
@@ -295,8 +327,7 @@
                             ],
                             "parameterValues": [],
                             "performer": ""
-                        },
-                       
+                        },                       
                         {
                             "@id": "#process/PCR_amplification1",
                             "comments": [],
@@ -318,9 +349,7 @@
                             "previousProcess": {
                                 "@id": "#process/nucleic_acid_extraction1"
                             }
-                        },                        
-   
-                        
+                        },                                                
                         {
                             "@id": "#process/library_construction1",
                             "comments": [],
@@ -432,7 +461,7 @@
                                 "@id": "#process/PCR_amplification1"
                             }
                         },
-                         {
+                        {
                             "@id": "#process/EXP21",
                             "comments": [
                                 {
@@ -468,45 +497,6 @@
                             "performer": "",
                             "previousProcess": {
                                 "@id": "#process/library_construction1"
-                            }
-                        },
-                        
-                           {
-                            "@id": "#process/EXP13",
-                            "comments": [
-                                {
-                                    "name": "Export",
-                                    "value": "yes"
-                                }
-                            ],
-                            "date": "",
-                            "executesProtocol": {
-                                "@id": "#protocol/nucleic_acid_sequencing"
-                            },
-                            "inputs": [],
-                            "name": "EXP13",
-                            "outputs": [
-                                {
-                                    "@id": "#data/rawdatafile-16BF.sff"
-                                }
-                            ],
-                            "parameterValues": [
-                                {
-                                    "category": {
-                                        "@id": "#parameter/quality_scorer"
-                                    },
-                                    "value": "phred"
-                                },
-                                {
-                                    "category": {
-                                        "@id": "#parameter/sequencing_instrument"
-                                    },
-                                    "value": "454 GS FLX Titanium"
-                                }
-                            ],
-                            "performer": "",
-                            "previousProcess": {
-                                "@id": "#process/library_construction21"
                             }
                         }
                     ],
@@ -1413,397 +1403,7 @@
                     ],
                     "parameterValues": [],
                     "performer": ""
-                },
-                {
-                            "@id": "#process/nucleic_acid_extraction1",
-                            "comments": [],
-                            "date": "",
-                            "executesProtocol": {
-                                "@id": "#protocol/nucleic_acid_extraction"
-                            },
-                            "inputs": [
-                                {
-                                    "@id": "#sample/sample-10EU"
-                                }
-                            ],
-                            "nextProcess": {
-                                "@id": "#process/PCR_amplification1"
-                            },
-                            "outputs": [
-                                {
-                                    "@id": "#material/extract-10EU"
-                                }
-                            ],
-                            "parameterValues": [],
-                            "performer": ""
-                        },
-                       {
-                            "@id": "#process/PCR_amplification1",
-                            "comments": [],
-                            "date": "",
-                            "executesProtocol": {
-                                "@id": "#protocol/PCR_amplification"
-                            },
-                            "inputs": [
-                                {
-                                    "@id": "#material/extract-10EU"
-                                }
-                            ],
-                            "nextProcess": {
-                                "@id": "#process/library_construction1"
-                            },
-                            "outputs": [],
-                            "parameterValues": [],
-                            "performer": "",
-                            "previousProcess": {
-                                "@id": "#process/nucleic_acid_extraction1"
-                            }
-                        },
-{
-                            "@id": "#process/library_construction1",
-                            "comments": [],
-                            "date": "",
-                            "executesProtocol": {
-                                "@id": "#protocol/library_construction"
-                            },
-                            "inputs": [],
-                            "nextProcess": {
-                                "@id": "#process/EXP21"
-                            },
-                            "outputs": [],
-                            "parameterValues": [
-                                {
-                                    "category": {
-                                        "@id": "#parameter/target_subfragment"
-                                    },
-                                    "value": {
-                                        "annotationValue": "V6 and V5",
-                                        "termAccession": "",
-                                        "termSource": ""
-                                    }
-                                },
-                                {
-                                    "category": {
-                                        "@id": "#parameter/target_taxon"
-                                    },
-                                    "value": {
-                                        "annotationValue": "Bacteria",
-                                        "termAccession": "",
-                                        "termSource": ""
-                                    }
-                                },
-                                {
-                                    "category": {
-                                        "@id": "#parameter/pcr_cond"
-                                    },
-                                    "value": {
-                                        "annotationValue": "see publication",
-                                        "termAccession": "",
-                                        "termSource": ""
-                                    }
-                                },
-                                {
-                                    "category": {
-                                        "@id": "#parameter/target_gene"
-                                    },
-                                    "value": {
-                                        "annotationValue": "16S rRNA",
-                                        "termAccession": "",
-                                        "termSource": ""
-                                    }
-                                },
-                                {
-                                    "category": {
-                                        "@id": "#parameter/pcr_primers"
-                                    },
-                                    "value": {
-                                        "annotationValue": "primers 784F and 1061R described by Andersson et al. (S3)",
-                                        "termAccession": "",
-                                        "termSource": ""
-                                    }
-                                },
-                                {
-                                    "category": {
-                                        "@id": "#parameter/mid"
-                                    },
-                                    "value": "ATATCGCGA"
-                                },
-                                {
-                                    "category": {
-                                        "@id": "#parameter/library_strategy"
-                                    },
-                                    "value": {
-                                        "annotationValue": "POOLCLONE",
-                                        "termAccession": "",
-                                        "termSource": ""
-                                    }
-                                },
-                                {
-                                    "category": {
-                                        "@id": "#parameter/library_source"
-                                    },
-                                    "value": {
-                                        "annotationValue": "GENOMIC",
-                                        "termAccession": "",
-                                        "termSource": ""
-                                    }
-                                },
-                                {
-                                    "category": {
-                                        "@id": "#parameter/library_layout"
-                                    },
-                                    "value": "single"
-                                },
-                                {
-                                    "category": {
-                                        "@id": "#parameter/library_selection"
-                                    },
-                                    "value": {
-                                        "annotationValue": "PCR",
-                                        "termAccession": "",
-                                        "termSource": ""
-                                    }
-                                }
-                            ],
-                            "performer": "",
-                            "previousProcess": {
-                                "@id": "#process/PCR_amplification1"
-                            }
-                        },
-                        
-                        {
-                            "@id": "#process/EXP21",
-                            "comments": [
-                                {
-                                    "name": "Export",
-                                    "value": "yes"
-                                }
-                            ],
-                            "date": "",
-                            "executesProtocol": {
-                                "@id": "#protocol/nucleic_acid_sequencing"
-                            },
-                            "inputs": [],
-                            "name": "EXP21",
-                            "outputs": [
-                                {
-                                    "@id": "#data/rawdatafile-10EU.sff"
-                                }
-                            ],
-                            "parameterValues": [
-                                {
-                                    "category": {
-                                        "@id": "#parameter/quality_scorer"
-                                    },
-                                    "value": "phred"
-                                },
-                                {
-                                    "category": {
-                                        "@id": "#parameter/sequencing_instrument"
-                                    },
-                                    "value": "454 GS FLX Titanium"
-                                }
-                            ],
-                            "performer": "",
-                            "previousProcess": {
-                                "@id": "#process/library_construction1"
-                            }
-                        },
-                       
-                        {
-                            "@id": "#process/nucleic_acid_extraction21",
-                            "comments": [],
-                            "date": "",
-                            "executesProtocol": {
-                                "@id": "#protocol/nucleic_acid_extraction"
-                            },
-                            "inputs": [
-                                {
-                                    "@id": "#sample/sample-16BF"
-                                }
-                            ],
-                            "nextProcess": {
-                                "@id": "#process/PCR_amplification21"
-                            },
-                            "outputs": [
-                                {
-                                    "@id": "#material/extract-16BF"
-                                }
-                            ],
-                            "parameterValues": [],
-                            "performer": ""
-                        },
-                        {
-                            "@id": "#process/PCR_amplification21",
-                            "comments": [],
-                            "date": "",
-                            "executesProtocol": {
-                                "@id": "#protocol/PCR_amplification"
-                            },
-                            "inputs": [
-                                {
-                                    "@id": "#material/extract-16BF"
-                                }
-                            ],
-                            "nextProcess": {
-                                "@id": "#process/library_construction21"
-                            },
-                            "outputs": [],
-                            "parameterValues": [],
-                            "performer": "",
-                            "previousProcess": {
-                                "@id": "#process/nucleic_acid_extraction21"
-                            }
-                        },
-                        {
-                            "@id": "#process/library_construction21",
-                            "comments": [],
-                            "date": "",
-                            "executesProtocol": {
-                                "@id": "#protocol/library_construction"
-                            },
-                            "inputs": [],
-                            "nextProcess": {
-                                "@id": "#process/EXP13"
-                            },
-                            "outputs": [],
-                            "parameterValues": [
-                                {
-                                    "category": {
-                                        "@id": "#parameter/target_subfragment"
-                                    },
-                                    "value": {
-                                        "annotationValue": "V6 and V5",
-                                        "termAccession": "",
-                                        "termSource": ""
-                                    }
-                                },
-                                {
-                                    "category": {
-                                        "@id": "#parameter/target_taxon"
-                                    },
-                                    "value": {
-                                        "annotationValue": "Bacteria",
-                                        "termAccession": "",
-                                        "termSource": ""
-                                    }
-                                },
-                                {
-                                    "category": {
-                                        "@id": "#parameter/pcr_cond"
-                                    },
-                                    "value": {
-                                        "annotationValue": "see publication",
-                                        "termAccession": "",
-                                        "termSource": ""
-                                    }
-                                },
-                                {
-                                    "category": {
-                                        "@id": "#parameter/target_gene"
-                                    },
-                                    "value": {
-                                        "annotationValue": "16S rRNA",
-                                        "termAccession": "",
-                                        "termSource": ""
-                                    }
-                                },
-                                {
-                                    "category": {
-                                        "@id": "#parameter/pcr_primers"
-                                    },
-                                    "value": {
-                                        "annotationValue": "primers 784F and 1061R described by Andersson et al. (S3)",
-                                        "termAccession": "",
-                                        "termSource": ""
-                                    }
-                                },
-                                {
-                                    "category": {
-                                        "@id": "#parameter/mid"
-                                    },
-                                    "value": "ATCAGACAC"
-                                },
-                                {
-                                    "category": {
-                                        "@id": "#parameter/library_strategy"
-                                    },
-                                    "value": {
-                                        "annotationValue": "POOLCLONE",
-                                        "termAccession": "",
-                                        "termSource": ""
-                                    }
-                                },
-                                {
-                                    "category": {
-                                        "@id": "#parameter/library_source"
-                                    },
-                                    "value": {
-                                        "annotationValue": "GENOMIC",
-                                        "termAccession": "",
-                                        "termSource": ""
-                                    }
-                                },
-                                {
-                                    "category": {
-                                        "@id": "#parameter/library_layout"
-                                    },
-                                    "value": "single"
-                                },
-                                {
-                                    "category": {
-                                        "@id": "#parameter/library_selection"
-                                    },
-                                    "value": {
-                                        "annotationValue": "PCR",
-                                        "termAccession": "",
-                                        "termSource": ""
-                                    }
-                                }
-                            ],
-                            "performer": "",
-                            "previousProcess": {
-                                "@id": "#process/PCR_amplification21"
-                            }
-                        },
-                        {
-                            "@id": "#process/EXP13",
-                            "comments": [
-                                {
-                                    "name": "Export",
-                                    "value": "yes"
-                                }
-                            ],
-                            "date": "",
-                            "executesProtocol": {
-                                "@id": "#protocol/nucleic_acid_sequencing"
-                            },
-                            "inputs": [],
-                            "name": "EXP13",
-                            "outputs": [
-                                {
-                                    "@id": "#data/rawdatafile-16BF.sff"
-                                }
-                            ],
-                            "parameterValues": [
-                                {
-                                    "category": {
-                                        "@id": "#parameter/quality_scorer"
-                                    },
-                                    "value": "phred"
-                                },
-                                {
-                                    "category": {
-                                        "@id": "#parameter/sequencing_instrument"
-                                    },
-                                    "value": "454 GS FLX Titanium"
-                                }
-                            ],
-                            "performer": "",
-                            "previousProcess": {
-                                "@id": "#process/library_construction21"
-                            }
-                        }
+                }
             ],
             "protocols": [
                 {
