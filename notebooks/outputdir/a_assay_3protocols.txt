@@ -1,5 +1,3 @@
 Sample Name	Protocol REF	Protocol REF	Protocol REF	Raw Data File
 material-A-0	extraction	library construction	sequencing	sequenced-data-0
-material-A-0	extraction	library construction	sequencing	sequenced-data-1
-material-B-0	extraction	library construction	sequencing	sequenced-data-0
 material-B-0	extraction	library construction	sequencing	sequenced-data-1

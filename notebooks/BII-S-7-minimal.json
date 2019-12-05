@@ -113,6 +113,7 @@
                                              
                         {
                             "@id": "#process/nucleic_acid_extraction21",
+                            "name": "nucleic_acid_extraction21",
                             "comments": [],
                             "date": "",
                             "executesProtocol": {
@@ -158,6 +159,7 @@
                         },
                         {
                             "@id": "#process/library_construction21",
+                            "name": "library_construction21",
                             "comments": [],
                             "date": "",
                             "executesProtocol": {
@@ -307,6 +309,7 @@
                         },                       
                         {
                             "@id": "#process/nucleic_acid_extraction1",
+                            "name": "nucleic_acid_extraction1",
                             "comments": [],
                             "date": "",
                             "executesProtocol": {
@@ -330,6 +333,7 @@
                         },                       
                         {
                             "@id": "#process/PCR_amplification1",
+                            "name": "PCR_amplification1",
                             "comments": [],
                             "date": "",
                             "executesProtocol": {
@@ -352,6 +356,7 @@
                         },                                                
                         {
                             "@id": "#process/library_construction1",
+                            "name": "library_construction1",
                             "comments": [],
                             "date": "",
                             "executesProtocol": {
